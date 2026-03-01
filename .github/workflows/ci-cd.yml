@@ -40,7 +40,7 @@ jobs:
 
       - name: Start application with Docker Compose
         run: |
-          docker-compose up -d
+          docker compose up -d
           sleep 20
 
       - name: Check running containers
